@@ -157,3 +157,25 @@
 # else:
 #     print ((a+b+c)//2+1)
 
+# a = int(input('Введите число: '))
+# b = 1
+# c = 0
+# while c < a:
+#    b = b * (c + 1)
+#    c += 1
+# print(b)
+
+# a = int(input('Введите число: '))
+# e = 0
+# b = 1
+# c = 0
+# if a > 0:
+#     while e < a:
+#         d = b + c
+#         b = c
+#         c = d
+#         e += 1
+#     print(c)
+# else:
+#     print(-1)
+
