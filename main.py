@@ -198,8 +198,8 @@
 # list_2 = ()
 
 # list_3 = [1, 2, 3]
-# for i in list_3:
-#     print(i)
+# # for i in list_3:
+# #     print(i)
 # print(len(list_3))
 
 # list_3 = [1, 2, 3]
@@ -295,4 +295,40 @@
 # q=a.union(b).difference(a.intersection(b)) # {1, 21, 3, 13}
 
 # list_1 = [i for i in range(1, 101)] # [1, 2, 3,..., 100]
+
+# a = int(input('Введите массу: '))
+# b = a
+# c = a
+# d = 5
+# for i in range(d - 1):
+#     a = int(input('Введите массу: '))
+#     if a < b:
+#         b = a
+#     elif a > c:
+#         c  = a
+# print(b, c)
+
+# coins = [0, 1, 0, 1, 1, 0]
+# n = int()
+# for i in range(n):
+#     coins.append(randint(0, 1))
+# zero = coins.count(0)
+# if len(coins) - zero < zero:
+#     print(len(coins) - zero)
+# else:
+#     print(zero)
+
+# count_zero = 0
+# count_one = 0
+
+# for coin in coins:
+#     if coin == 0:
+#         count_zero += 1
+#     else:
+#         count_one += 1
+
+# if count_one > count_zero:
+#     print(count_zero)
+# else:
+#     print(count_one)
 
