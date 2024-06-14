@@ -320,7 +320,6 @@
 
 # count_zero = 0
 # count_one = 0
-
 # for coin in coins:
 #     if coin == 0:
 #         count_zero += 1
@@ -331,4 +330,22 @@
 #     print(count_zero)
 # else:
 #     print(count_one)
+
+# s = 12
+# p = 27
+# S = int(s)
+# P = int(p)
+# found = False
+# for X in range(1, S):
+#     Y = S - X
+#     if X * Y == P:
+#         print(X, Y)
+#         found = True
+#         break
+
+# a = [1, 1, 2, 0, -1, 3, 4, 4]
+# a = set(a)
+# b = a.union(a)
+# c = len(b)
+# print(c)
 
