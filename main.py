@@ -345,7 +345,9 @@
 
 # a = [1, 1, 2, 0, -1, 3, 4, 4]
 # a = set(a)
-# b = a.union(a)
-# c = len(b)
-# print(c)
+# b = len(a)
+# print(b)
+
+# a = [1, 1, 2, 0, -1, 3, 4, 4]
+# print(len(set(a)))
 
